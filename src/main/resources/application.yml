@@ -28,6 +28,6 @@ spring:
       timeout: 60000
 
   cache:
-    type:
-      redis:
-        time-to-live: 3h
+    type: redis
+    redis:
+      time-to-live: 10800000
